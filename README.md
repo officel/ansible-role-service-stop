@@ -2,7 +2,7 @@ Ansible Role: service stop
 =========
 
 [![Build Status](https://travis-ci.org/officel/ansible-role-service-stop.svg?branch=master)](https://travis-ci.org/officel/ansible-role-service-stop)
-[![Ansible Role](https://img.shields.io/badge/galaxy-officel.service-stop-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/officel/service-stop/)
+[![Ansible Role](https://img.shields.io/badge/galaxy-officel.service--stop-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/officel/service-stop/)
 
 disable service. maybe unneeded services.
 
