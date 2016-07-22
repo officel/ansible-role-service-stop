@@ -1,0 +1,9 @@
+---
+# tasks file for ansible-role-service-stop
+- name: service stopped.
+  service: name={{ item }} state=stopped enabled=no
+  ignore_errors: yes
+  with_items: '{{ stop_services }}'
+  when: stop_services is defined
+  tags: [service.stop]
+
