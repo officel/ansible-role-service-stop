@@ -40,6 +40,11 @@ Example Playbook
             stop_services: [ auditd , nfs ]
            }
 
+One more thing
+--------------
+
+    $ chkconfig | grep on
+
 License
 -------
 
