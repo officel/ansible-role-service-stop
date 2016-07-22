@@ -1,6 +1,8 @@
 Ansible Role: service stop
 =========
 
+[![Build Status](https://travis-ci.org/officel/ansible-role-service-stop.svg?branch=master)](https://travis-ci.org/officel/ansible-role-service-stop)
+
 disable service. maybe unneeded services.
 
 Requirements
