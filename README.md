@@ -34,6 +34,7 @@ Example Playbook
 ----------------
 
     - hosts: all
+      become: yes
       roles:
          - officel.service-stop
 
